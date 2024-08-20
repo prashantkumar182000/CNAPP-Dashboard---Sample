@@ -1,4 +1,4 @@
-Certainly! Here's the content you provided in the `.md` file format:
+Here's your updated `README.md` file with your GitHub username, email address, and the deployed project link:
 
 
 # Dynamic Dashboard
@@ -26,7 +26,7 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/dynamic-dashboard.git
+git clone https://github.com/prashantkumar182000/dynamic-dashboard.git
 cd dynamic-dashboard
 ```
 
@@ -101,6 +101,10 @@ src/
 - **Adding a Widget:** Click the "+ Add Widget" button in any category to open the widget selection drawer. Choose your widgets and click "Confirm" to add them to the dashboard.
 - **Removing a Widget:** Click the "X" button on any widget to remove it from the dashboard.
 
+## Deployment
+
+The project is deployed and can be accessed [here](https://cnapp-sample.netlify.app/).
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
@@ -111,7 +115,7 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 ## Contact
 
-For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please contact [prashantkumar18.pk@gmail.com](mailto:prashantkumar18.pk@gmail.com).
 ```
 
-Simply save this text into a file named `README.md`. Replace the placeholders with your actual GitHub username and email address.
+You can save this text as `README.md` in your project directory.
