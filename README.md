@@ -1,6 +1,3 @@
-Here's your updated `README.md` file with your GitHub username, email address, and the deployed project link:
-
-
 # Dynamic Dashboard
 
 Dynamic Dashboard is a ReactJS-based application that allows users to personalize their dashboard by adding widgets. The application features a responsive design, supports dynamic widget management, and uses Zustand for state management.
@@ -116,6 +113,3 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 ## Contact
 
 For any inquiries, please contact [prashantkumar18.pk@gmail.com](mailto:prashantkumar18.pk@gmail.com).
-```
-
-You can save this text as `README.md` in your project directory.
