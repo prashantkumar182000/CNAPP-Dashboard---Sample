@@ -120,4 +120,4 @@ Contributions are always welcome! If you wish to contribute, please fork the rep
 
 ## Contact
 
-For any inquiries, suggestions, or feedback, please reach out via email: [prashantkumar18.pk@gmail.com](mailto:prashantkumar18.pk@gmail.com).
+For any inquiries, suggestions, or feedback, please reach out via email: [prashantkumar18.pk@gmail.com](mailto:prashantkumar18.pk@gmail.com) or my website: [https://prashantkumar60099.netlify.app/](https://prashantkumar60099.netlify.app/).
