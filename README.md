@@ -1,4 +1,4 @@
-# Dynamic Dashboard
+# CNAPP Dashboard
 
 Dynamic Dashboard is a ReactJS-based application that allows users to personalize their dashboard by adding widgets. The application features a responsive design, supports dynamic widget management, and uses Zustand for state management.
 
