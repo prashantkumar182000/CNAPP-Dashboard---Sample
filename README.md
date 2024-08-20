@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Dynamic Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dynamic Dashboard is a ReactJS-based application that allows users to personalize their dashboard by adding widgets. The application features a responsive design, supports dynamic widget management, and uses Zustand for state management.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Dynamic Widgets:** Add and remove widgets dynamically.
+- **Responsive Design:** Works well on all screen sizes.
+- **State Management:** Uses Zustand for efficient state management.
+- **Material UI:** Leverages Material UI components for a sleek, modern interface.
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Before you begin, ensure you have the following installed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run build`
+### 1. Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/prashantkumar182000/dynamic-dashboard.git
+cd dynamic-dashboard
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Install Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you're using npm:
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Or if you're using Yarn:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+yarn install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Start the Development Server
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the application locally:
 
-## Learn More
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Or with Yarn:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+yarn start
+```
 
-### Code Splitting
+The app should automatically open in your default web browser. If it doesn't, navigate to `http://localhost:3000` in your browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 4. Build the Application
 
-### Analyzing the Bundle Size
+To create a production build:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+Or with Yarn:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+yarn build
+```
 
-### Advanced Configuration
+This will output the static files to the `build` directory, ready for deployment.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Project Structure
 
-### Deployment
+Here's an overview of the project structure:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+src/
+├── components/
+│   ├── AddWidgetModal.js    // Component for adding widgets
+│   ├── Category.js          // Category display component
+│   ├── Dashboard.js         // Main dashboard component
+│   ├── Widget.js            // Widget display component
+│   └── Category.css         // CSS for Category component
+├── store/
+│   └── store.js             // Zustand state management
+├── App.js                   // Main App component
+├── index.js                 // Entry point of the application
+├── index.css                // Global styles
+└── App.css                  // Styles for the App component
+```
 
-### `npm run build` fails to minify
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Adding a Widget:** Click the "+ Add Widget" button in any category to open the widget selection drawer. Choose your widgets and click "Confirm" to add them to the dashboard.
+- **Removing a Widget:** Click the "X" button on any widget to remove it from the dashboard.
+
+## Deployment
+
+The project is deployed and can be accessed [here](https://cnapp-sample.netlify.app/).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request or open an Issue.
+
+## Contact
+
+For any inquiries, please contact [prashantkumar18.pk@gmail.com](mailto:prashantkumar18.pk@gmail.com).
